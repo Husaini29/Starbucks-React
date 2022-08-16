@@ -1,0 +1,328 @@
+#header{
+    height: 190px;
+    width: 100%;
+    background-color:  #f7f7f7;
+}
+.head{
+    background-color: var(--color-primary);
+    height: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.logo img{
+    height: 65px;
+    width: 62px;
+    margin-left: 190%;
+    margin-top: 25%;
+}
+.left{
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.right{
+    padding: 2px 1px;
+    margin-right:6%;
+    margin-top: 1%;
+}
+.nav-options{
+    display: flex;
+    color: #000;
+}
+.nav-options > li{
+    list-style: none;
+    padding: 10px;
+}
+.nav-options > li:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: black;
+}
+.nav-options >li >a{
+    text-decoration: none;
+    color: #252322;
+    font-family:'Lato',Helvetica,Arial,sans-serif;
+}
+.nav-options >li:hover{
+    color: #fff;
+}
+.fa-location-dot{
+    color: var(--color-primary);
+}
+.find{
+    color:#000;
+}
+.find:hover{
+    color: #a1a1a1;
+    cursor: pointer;
+}
+
+
+/* ----------Weather CSS---------- */
+
+.icon{
+    z-index: 100;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 2%;
+}
+
+.card-img-top{
+    display: inline-block;
+}
+
+#weather{
+    display: inline-block;
+    color: var(--color-primary);
+    font-size: 1.7rem;
+
+}
+
+
+/* -------Hoverable DropDown Starts------ */
+
+/* ------CoffeeDropDown Starts------- */
+
+#coffeeDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 423px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 0.5%;
+}
+#coffeeDropDown1{
+    display: inline-block;
+    margin-top: -1%;
+    margin-left: 10%;
+    width: 65%;
+}
+#coffeeDropDown2{
+    float: right;
+    width: 18%;
+    margin-right: 5%;
+}
+
+#coffeeDropDown2 > img{
+    display: block;
+    height: 140px;
+    width: 100%;
+}
+
+#sub-coffeelist{
+    margin-top: -3%;
+}
+.list-heading{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* ---------MenuDropDown Starts--------- */
+
+#menuDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 0.5%;
+}
+
+#menuDropDown1{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 10%;
+    width: 65%;
+}
+
+#menuDropDown1 > .list-unstyled{
+    height: 235px;
+}
+
+#menuDropDown2{
+    float: right;
+    width: 19%;
+    margin-right: 2%;
+}
+
+#menuDropDown2 > img{
+    display: block;
+    height: 150px;
+    width: 65%;
+}
+
+/* ------- CoffeeHouse DroDown Stars--------- */
+
+#coffeeHouseDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 0.5%;
+}
+
+#coffeeHouseDropDown1{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 10%;
+    width: 65%;
+}
+
+#coffeeHouseDropDown1 > .list-unstyled{
+    height: 200px;
+}
+
+#coffeeHouseDropDown2{
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#coffeeHouseDropDown2 > img{
+    display: block;
+    height: 125px;
+    width: 80%;
+}
+
+#downloadApp{
+    text-decoration: none;
+    color: white !important
+}
+
+#starbucksApp{
+    z-index: 100;
+    margin-top: -93%;
+    width: 65%;
+    height: 220px;
+    margin-left: 8%;
+}
+
+#starbucksApp:hover{
+    background-color: green;
+}
+
+#starbucksApp > img{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 23%;
+}
+
+#starbucksApp > h6{
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-left: 2.5%;
+}
+
+#starbucksApp > p{
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-left: 2.5%;
+    font-size: 14px;
+}
+
+/* ----------Responsibility DropDown Starts------- */
+
+#responsibilityDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 305px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 0.5%;
+}
+
+#responsibilityDropDown1{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 10%;
+    width: 65%;
+}
+
+#responsibilityDropDown1 > .list-unstyled{
+    width: 24%;
+    height: 130px;
+}
+
+#responsibilityDropDown2{
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#responsibilityDropDown2 > img{
+    display: block;
+    height: 101px;
+    width: 70%;
+}
+
+/* -------- About DropDown Starts------------ */
+#aboutUsDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 170px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 0.5%;
+}
+
+#aboutUsDropDown1{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 10%;
+    width: 65%;
+}
+
+#aboutUsDropDown1 > .list-unstyled{
+    width: 24%;
+    height: 120px;
+}
+
+#aboutUsDropDown2{
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#aboutUsDropDown2 > img{
+    display: block;
+    height: 170px;
+    width: 70%;
+}
+
+
+
+.list-unstyled{
+    display: inline-block;
+    width: 24%;
+    height: 153px;
+    padding: 3%;
+    vertical-align: top;
+}
+.list-unstyled >li >a{
+    color: #fff !important;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+    font-size: 13px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+.list-unstyled >li >a:hover{
+    background-color: green !important;
+}

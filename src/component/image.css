@@ -1,0 +1,128 @@
+
+#box1{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box1.jpg") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box2{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box2.jpg") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box3{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box3.jpg") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box4{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box4.jpg") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box5{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box5.png") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box6{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box6.png") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box7{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box7.jpg") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box8{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box8.png") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box9{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box9.jpg") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box10{
+    height: 560px;
+    width: 100%;
+    background: url("../images/box10.jpg") no-repeat;
+    background-position: cover;
+    background-position-x: center;
+}
+#box11{
+    height: 550px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display:flex;
+}
+#box12{
+    height: 550px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display:flex;
+}
+.left-box{
+    height: 500px;
+    width: 45%;
+    /* border: 2px solid red; */
+    margin-top: 1.5%;
+    margin-left: 4%;
+}
+.right-box{
+    height: 500px;
+    width: 45%;
+    /* border: 2px solid red; */
+    margin-left: 2%;
+    margin-top: 1.5%;
+
+}
+.box-img{
+    margin-left: 16%;
+    margin-top:8%;
+}
+.right-heading{
+    margin-left: 10%;
+    margin-top: 27%;
+    font-size: 22px;
+}
+.right-para{
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.left-heading{
+    margin-left: 15%;
+    margin-top: 27%;
+    font-size: 22px;
+
+}
+.left-para{
+    margin-top: 2%;
+    margin-left: 15%;
+    font-size: 16px;
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+}
